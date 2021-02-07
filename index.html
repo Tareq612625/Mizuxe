@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="shortcut icon" type="image/x-icon" href="img/icon.png">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/team.css">
+  <link rel="stylesheet" href="css/features.css">
+  <link rel="stylesheet" href="css/technology.css">
+  <link rel="stylesheet" href="css/carousel.css">
+  <link rel="stylesheet" href="css/smart-service.css">
+  <link rel="stylesheet" href="css/portfolio.css">
+  <link rel="stylesheet" href="css/newslatter.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -12,36 +21,54 @@
   <link rel="stylesheet" href="css/uikit.min.css">
   <title>Glozzom</title>
 </head>
+
 <body>
-    <!--Navigation-->
-    <nav class="navbar navbar-dark  navbar-expand-md" uk-sticky="top: 150; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up>
-      <div class="container">
-        <a class="navbar-brand" href="index.html">Glozoom</a>
-        <button class="navbar-toggler navbar-toggler-right">
-          <span class="navbar-toggler-icon" data-toggle="collapse" data-target="#navbarnav"></span>
-        </button>
-        <div id="navbarnav" class="collapse navbar-collapse">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blog.html">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Carousle Slider-->
+  <!--Navigation-->
+  <nav class="navbar navbar-dark  navbar-expand-md" uk-sticky="top: 150; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up>
+  <div class=" container">
+    <a class="navbar-brand" href="index.html">Glozoom</a>
+    <button class="navbar-toggler navbar-toggler-right">
+      <span class="navbar-toggler-icon" data-toggle="collapse" data-target="#navbarnav"></span>
+    </button>
+    <div id="navbarnav" class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About us</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu mt-2" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="services.html">Software Development</a>
+            <a class="dropdown-item" href="caro.html">Web Development</a>
+            <a class="dropdown-item" href="#">Database Design</a>
+            <a class="dropdown-item" href="#">Database Development</a>
+            <a class="dropdown-item" href="#">Networking Setup System </a>
+            <a class="dropdown-item" href="#">Graphics Design</a>
+            <a class="dropdown-item" href="#">CCTV Setup</a>
+            <a class="dropdown-item" href="#">IT Hardware Supplier</a>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+
+      </ul>
+    </div>
+    </div>
+  </nav>
+  <!-- Carousle Slider-->
   <section id="showcase" class="bg-dark">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -54,26 +81,29 @@
           <div class="container">
             <div class="carousel-caption mb-3 pb-3 mb-sm-5 pb-sm-5">
               <h2 class="display-4 text-light">Heading One</h2>
-              <p class="lead my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat possimus doloribus velit, harum accusantium quia repellendus debitis, neque vero.</p>
+              <p class="lead my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat possimus
+                doloribus velit, harum accusantium quia repellendus debitis, neque vero.</p>
               <a href="#" class="btn btn-danger">Learn More</a>
             </div>
           </div>
         </div>
         <div class="carousel-item carousel-img-2">
           <div class="container">
-            <div class="carousel-caption mb-3 pb-3 mb-sm-5 pb-sm-5 text-right">
-              <h2 class="display-4 text-light">Heading Two</h2>
-              <p class="lead my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat possimus doloribus velit, harum accusantium quia repellendus debitis, neque vero.</p>
-              <a href="#" class="btn btn-success">Learn More</a>
+            <div class="carousel-caption mb-3 pb-3 mb-sm-5 pb-sm-5">
+              <h2 class="display-4 text-light">Heading One</h2>
+              <p class="lead my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat possimus
+                doloribus velit, harum accusantium quia repellendus debitis, neque vero.</p>
+              <a href="#" class="btn btn-danger">Learn More</a>
             </div>
           </div>
         </div>
         <div class="carousel-item carousel-img-3">
           <div class="container">
-            <div class="carousel-caption text-left text-light mb-3 pb-3 mb-sm-5 pb-sm-5">
-              <h2 class="display-4 text-light">Heading Three</h2>
-              <p class="lead my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat possimus doloribus velit, harum accusantium quia repellendus debitis, neque vero.</p>
-              <a href="#" class="btn btn-outline-light">Learn More</a>
+            <div class="carousel-caption mb-3 pb-3 mb-sm-5 pb-sm-5">
+              <h2 class="display-4 text-light">Heading One</h2>
+              <p class="lead my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat possimus
+                doloribus velit, harum accusantium quia repellendus debitis, neque vero.</p>
+              <a href="#" class="btn btn-danger">Learn More</a>
             </div>
           </div>
         </div>
@@ -86,153 +116,1220 @@
       </a>
     </div>
   </section>
-  <!--Home Icon-->
 
-    <section id="homeicon" class="py-5 text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 text-center my-2">
-                   <i class="fa fa-gears"></i> 
-                   <h3 class="my-2">Turning Gears</h3>
-                   <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat possimus doloribus velit, harum accusantium quia repellendus debitis, neque vero.
-                   </p>
-                </div>
-                <div class="col-md-4 text-center my-2">
-                   <i class="fa fa-cloud"></i> 
-                   <h3 class="my-2">Sending Data</h3>
-                   <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat possimus doloribus velit, harum accusantium quia repellendus debitis, neque vero.
-                   </p>
-                </div>
-                <div class="col-md-4 text-center my-2">
-                   <i class="fa fa-cart-plus"></i> 
-                   <h3 class="my-2">Makeing Money</h3>
-                   <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat possimus doloribus velit, harum accusantium quia repellendus debitis, neque vero.
-                   </p>
-                </div>
-            </div>
+  <!-- Our Services-->
+  <section id="t-cards">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <div class="service">
+            <h3 style="color: white;">We Service</h3>
+            <p>We Providing 5 core services. All Services are Featured, oustanding and Innovative.These featured are
+              below</p>
+          </div>
         </div>
-    </section>
-    <!--home- get-started-->
-    <section class="py-5 text-center text-light" id="getstarted">
-      <div class="dark-overlay">
-         <div class="container">
-           <div class="row">
-             <div class="col mt-5 pt-2">
-               <h3 class="text-light">Are you ready to get started</h3>
-               <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat possimus doloribus velit, harum accusantium quia repellendus debitis, neque vero.</p>
-             </div>
-           </div>
-         </div>
       </div>
-    </section>
-  <!--home-info-section-->
-    <section class="py-5" id="homeinfo">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 align-self-center mt-sm-3">
-                   <h3 class="lead">Lorem Ipsum Dolor Sit</h3>
-                   <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat possimus doloribus velit, harum accusantium quia repellendus debitis, neque vero.</p>
-                   <a href="#" class="btn btn-outline-dark">Read more</a>
-                </div>
-                <div class="col-md-6 mt-sm-3 mt-md mt-3 mt-md-0">
-                    <img src="img/pc.jpeg" alt="pc" class="img-fluid rounded">
-                </div>
+      <div class="row text-light">
+        <div class="col-sm-6 col-md-3 text-light">
+          <div class="panel panel-default panel-card">
+            <div class="panel-heading">
+              <img src="./img/image3.jpeg" />
+              <button class="btn btn-success btn-sm" role="button">Details</button>
             </div>
+            <div class="panel-figure">
+              <img class="img-responsive img-circle" src="./img/oracle.png" />
+            </div>
+            <div class="panel-body text-center">
+              <h4 class="panel-header"><a>Software Development</a></h4>
+              <small>A short description goes here.</small>
+            </div>
+            <div class="panel-thumbnails">
+              <div class="row">
+                <p class="ml-1">
+                  Test Automation Is Crucial For The Development And Deployment Of Good Software, However,
+                  Whethercost-save
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
 
-    <!--home-video-section-->
-    <section id="home-video" class="text-center text-light">
-       <div class="dark-overlay">
-            <div class="container">
-                <div class="row">
-                   <div class="col mt-5 pt-4">
-                     <div uk-lightbox>
-                       <a href="https://www.youtube.com/watch?v=ciBnbRssHno" class="text-danger">
-                         <i class="fa fa-youtube-play"></i>
-                       </a>
-                     </div>
-                     <h2 class="md-3 text-light">The Natural Bangaldesh</h2>
-                   </div>
+        <div class="col-sm-6 col-md-3 text-light">
+          <div class="panel panel-default panel-card">
+            <div class="panel-heading">
+              <img src="./img/image3.jpeg" />
+              <button class="btn btn-success btn-sm" role="button">Details</button>
+            </div>
+            <div class="panel-figure">
+              <img class="img-responsive img-circle" src="./img/oracle.png" />
+            </div>
+            <div class="panel-body text-center">
+              <h4 class="panel-header"><a>Website Development</a></h4>
+              <small>A short description goes here.</small>
+            </div>
+            <div class="panel-thumbnails">
+              <div class="row">
+                <p class="ml-1">
+                  Test Automation Is Crucial For The Development And Deployment Of Good Software, However, Whether
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 text-light">
+          <div class="panel panel-default panel-card">
+            <div class="panel-heading">
+              <img src="./img/image3.jpeg" />
+              <button class="btn btn-success btn-sm" role="button">Details</button>
+            </div>
+            <div class="panel-figure">
+              <img class="img-responsive img-circle" src="./img/oracle.png" />
+            </div>
+            <div class="panel-body text-center">
+              <h4 class="panel-header"><a>Database Development</a></h4>
+              <small>A short description goes here.</small>
+            </div>
+            <div class="panel-thumbnails">
+              <div class="row">
+                <p class="ml-1">
+                  Test Automation Is Crucial For The Development And Deployment Of Good Software, However, Whether
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 text-light">
+          <div class="panel panel-default panel-card">
+            <div class="panel-heading">
+              <img src="./img/image3.jpeg" />
+              <button class="btn btn-success btn-sm" role="button">Details</button>
+            </div>
+            <div class="panel-figure">
+              <img class="img-responsive img-circle" src="./img/oracle.png" />
+            </div>
+            <div class="panel-body text-center">
+              <h4 class="panel-header"><a>Graphics Design</a></h4>
+              <small>A short description goes here.</small>
+            </div>
+            <div class="panel-thumbnails">
+              <div class="row">
+                <p class="ml-1">
+                  Test Automation Is Crucial For The Development And Deployment Of Good Software, However, Whether
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- services Section end -->
+
+  <!--Features-icon-boxes-->
+  <section id="features-boxes" class="py-5 text-center text-light">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>Features</h2>
+        </div>
+      </div>
+      <div class="row mt-2">
+
+        <div class="col-md-4 col-sm-6 col-lg-3">
+          <div class="card bg-dark">
+            <div class="card-body">
+
+              <div class="row">
+                <div class="col-2 mt-4 text-center text-large">
+                  <i class="fa fa-university"></i>
                 </div>
-             </div>
-        </div>
-    </section>
-    <!-- photo Galary-->
-    <section id="gallery" class="py-5" uk-lightbox>
-       <div class="container">
-         <div class="row text-center mb-3">
-           <div class="col">
-             <h2>Photo Gallery</h2>
-             <p class="lead">Check out our photo</p>
-           </div>
-         </div>
-         <div class="row">
-           <div class="col-md-4">
-             <div>
-               <a href="img/image1.jpeg"><img src="img/image1.jpeg" alt="image1" class="img-fluied"></a>
-             </div>
-           </div>
-           <div class="col-md-4">
-              <div>
-               <a href="img/image2.jpeg"><img src="img/image2.jpeg" alt="image2" class="img-fluied"></a>
-             </div> 
-           </div>
-           <div class="col-md-4">
-              <div>
-               <a href="img/image3.jpeg"><img src="img/image3.jpeg" alt="image3" class="img-fluied"></a>
-             </div>
-           </div>
-         </div>
+                <div class="col-10 pl-4">
+                  <h4 class="text-light mt-0">Garments ERP</h4>
+                  <button class="btn btn-success btn-sm">
+                    <a href="#">More</a>
+                  </button>
+                </div>
+              </div>
 
-         <div class="row pt-0 pt-md-4">
-           <div class="col-md-4">
-             <div>
-               <a href="img/image4.jpeg"><img src="img/image4.jpeg" alt="image4" class="img-fluied"></a>
-             </div>
-           </div>
-           <div class="col-md-4">
-              <div>
-               <a href="img/image5.jpeg"><img src="img/image5.jpeg" alt="image2" class="img-fluied"></a>
-             </div> 
-           </div>
-           <div class="col-md-4">
-              <div>
-               <a href="img/image6.jpeg"><img src="img/image6.jpeg" alt="image3" class="img-fluied"></a>
-             </div>
-           </div>
-         </div>
-       </div>
-    </section>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-lg-3">
+          <div class="card bg-dark">
+            <div class="card-body">
+
+              <div class="row">
+                <div class="col-2 mt-4 text-center text-large">
+                  <i class="fa fa-industry"></i>
+                </div>
+                <div class="col-10 pl-4">
+                  <h4 class="text-light mt-0">Spinning/Textile ERP</h4>
+                  <button class="btn btn-success btn-sm">More</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-lg-3">
+          <div class="card bg-dark">
+            <div class="card-body">
+
+              <div class="row">
+                <div class="col-2 mt-4 text-center text-large">
+                  <i class="fa fa-industry"></i>
+                </div>
+                <div class="col-10 pl-4">
+                  <h4 class="text-light mt-0">Spinning/Textile ERP</h4>
+                  <button class="btn btn-success btn-sm">More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-lg-3">
+          <div class="card bg-dark">
+            <div class="card-body">
+
+              <div class="row">
+                <div class="col-2 mt-4 text-center text-large">
+                  <i class="fa fa-snowflake-o"></i>
+                </div>
+                <div class="col-10 pl-4">
+                  <h4 class="text-light mt-0">Knitting ERP</h4>
+                  <button class="btn btn-success btn-sm">More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+      <div class="row mt-4">
+
+        <div class="col-md-4 col-sm-6 col-lg-3">
+          <div class="card bg-dark">
+            <div class="card-body">
+
+              <div class="row">
+                <div class="col-2 mt-4 text-center text-large">
+                  <i class="fa fa-industry"></i>
+                </div>
+                <div class="col-10 pl-4">
+                  <h4 class="text-light mt-0">Manufacturing ERP</h4>
+                  <button class="btn btn-success btn-sm">More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-lg-3">
+          <div class="card bg-dark">
+            <div class="card-body">
+
+              <div class="row">
+                <div class="col-2 mt-4 text-center text-large">
+                  <i class="fa fa-window-restore"></i>
+                </div>
+                <div class="col-10 pl-4">
+                  <h4 class="text-light mt-0">Indenting/Trading ERP</h4>
+                  <button class="btn btn-success btn-sm">More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-lg-3">
+          <div class="card bg-dark">
+            <div class="card-body">
+
+              <div class="row">
+                <div class="col-2 mt-4 text-center text-large">
+                  <i class="fa fa-industry"></i>
+                </div>
+                <div class="col-10 pl-4">
+                  <h4 class="text-light mt-0">Industries ERP</h4>
+                  <button class="btn btn-success btn-sm">More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-lg-3">
+          <div class="card bg-dark">
+            <div class="card-body">
+
+              <div class="row">
+                <div class="col-2 mt-4 text-center text-large">
+                  <i class="fa fa-male"></i>
+                </div>
+                <div class="col-10 pl-4">
+                  <h4 class="text-light mt-0">HR Management System</h4>
+                  <button class="btn btn-success btn-sm">More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+
+      <div class="row mt-2">
+
+        <div class="col-md-4 col-sm-6 col-lg-3">
+          <div class="card bg-dark">
+            <div class="card-body">
+
+              <div class="row">
+                <div class="col-2 mt-4 text-center text-large">
+                  <i class="fa fa-credit-card"></i>
+                </div>
+                <div class="col-10 pl-4">
+                  <h4 class="text-light mt-0">Payroll Software</h4>
+                  <button class="btn btn-success btn-sm">More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-lg-3">
+          <div class="card bg-dark">
+            <div class="card-body">
+
+              <div class="row">
+                <div class="col-2 mt-4 text-center text-large">
+                  <i class="fa fa-money"></i>
+                </div>
+                <div class="col-10 pl-4">
+                  <h4 class="text-light mt-0">Accounts Software</h4>
+                  <button class="btn btn-success btn-sm">More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-lg-3">
+          <div class="card bg-dark">
+            <div class="card-body">
+
+              <div class="row">
+                <div class="col-2 mt-4 text-center text-large">
+                  <i class="fa fa-indent"></i>
+                </div>
+                <div class="col-10 pl-4">
+                  <h4 class="text-light mt-0">Inventory Software</h4>
+                  <button class="btn btn-success btn-sm">More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-lg-3">
+          <div class="card bg-dark">
+            <div class="card-body">
+
+              <div class="row">
+                <div class="col-2 mt-4 text-center text-large">
+                  <i class="fa fa-shopping-basket"></i>
+                </div>
+                <div class="col-10 pl-4">
+                  <h4 class="text-light mt-0">Sales Management</h4>
+                  <button class="btn btn-success btn-sm">More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="row mt-2">
+
+        <div class="col-md-4 col-sm-6 col-lg-3">
+          <div class="card bg-dark">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-2 mt-4 text-center text-large">
+                  <i class="fa fa-user-md"></i>
+                </div>
+                <div class="col-10 pl-4">
+                  <h4 class="text-light mt-0">Pharmaceutical ERP</h4>
+                  <button class="btn btn-success btn-sm">More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-lg-3">
+          <div class="card bg-dark">
+            <div class="card-body">
+
+              <div class="row">
+                <div class="col-2 mt-4 text-center text-large">
+                  <i class="fa fa-graduation-cap"></i>
+                </div>
+                <div class="col-10 pl-4">
+                  <h4 class="text-light mt-0">School/Collage Software</h4>
+                  <button class="btn btn-success btn-sm">More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-lg-3">
+          <div class="card bg-dark">
+            <div class="card-body">
+
+              <div class="row">
+                <div class="col-2 mt-4 text-center text-large">
+                  <i class="fa fa-plane"></i>
+                </div>
+                <div class="col-10 pl-4">
+                  <h4 class="text-light mt-0">Travel Agency Software</h4>
+                  <button class="btn btn-success btn-sm">More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-lg-3">
+          <div class="card bg-dark">
+            <div class="card-body">
+
+              <div class="row">
+                <div class="col-2 mt-4 text-center text-large">
+                  <i class="fa fa-bed"></i>
+                </div>
+                <div class="col-10 pl-4">
+                  <h4 class="text-light mt-0">Resort Management</h4>
+                  <button class="btn btn-success btn-sm">More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row mt-4">
+        <div class="col">
+          <button class="btn btn-sm btn-success">See More Features</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FEATURES END -->
+
+  <!-- Team section Start-->
+  <section id="team" class="pb-0">
+    <div class="container">
+      <h5 class="section-title h1 pb-5">OUR TEAM</h5>
+      <div class="row">
+        <!-- Team member -->
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="image-flip">
+            <div class="mainflip flip-0">
+              <div class="frontside">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <p><img class=" img-fluid" src="./img/a.jpg" alt="card image">
+                    </p>
+                    <h4 class="card-title">Tareq Aziz</h4>
+                    <p class="card-text">Sales and Solution Consultent</p>
+                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i
+                        class="fa fa-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="backside">
+                <div class="card">
+                  <div class="card-body text-center mt-4">
+                    <h4 class="card-title">Tareq Aziz</h4>
+                    <p class="card-text">This is basic card with image on top, title, description and button.This is</p>
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-facebook"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-skype"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-google"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ./Team member -->
+        <!-- Team member -->
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="image-flip">
+            <div class="mainflip flip-0">
+              <div class="frontside">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <p><img class=" img-fluid"
+                        src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card image">
+                    </p>
+                    <h4 class="card-title">Kamrul Hasan</h4>
+                    <p class="card-text">Senior Programmer</p>
+                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i
+                        class="fa fa-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="backside">
+                <div class="card">
+                  <div class="card-body text-center mt-4">
+                    <h4 class="card-title">Kamrul Hasan</h4>
+                    <p class="card-text">This is basic card with image on top, title, description and button.This is</p>
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-facebook"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-skype"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-google"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ./Team member -->
+        <!-- Team member -->
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="image-flip">
+            <div class="mainflip flip-0">
+              <div class="frontside">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <p><img class=" img-fluid"
+                        src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card image">
+                    </p>
+                    <h4 class="card-title">Ariyan Sunny</h4>
+                    <p class="card-text">Senior Programmer</p>
+                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i
+                        class="fa fa-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="backside">
+                <div class="card">
+                  <div class="card-body text-center mt-4">
+                    <h4 class="card-title">Sunlimetech</h4>
+                    <p class="card-text">This is basic card with image on top, title, description and button.This is
+                      basic card with image on top,/p>
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-facebook"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-skype"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-google"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ./Team member -->
+        <!-- Team member -->
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="image-flip">
+            <div class="mainflip flip-0">
+              <div class="frontside">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <p><img class=" img-fluid"
+                        src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card image">
+                    </p>
+                    <h4 class="card-title">Md. Tanbir Hossain</h4>
+                    <p class="card-text">Graphics Designer</p>
+                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i
+                        class="fa fa-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="backside">
+                <div class="card">
+                  <div class="card-body text-center mt-4">
+                    <h4 class="card-title">Tanbir Hossain</h4>
+                    <p class="card-text">This is basic card with image on top, title, description and button.This is</p>
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-facebook"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-skype"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-google"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ./Team member -->
+        <!-- Team member -->
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="image-flip">
+            <div class="mainflip flip-0">
+              <div class="frontside">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <p><img class=" img-fluid"
+                        src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card image">
+                    </p>
+                    <h4 class="card-title">Saiful Islam</h4>
+                    <p class="card-text">Newtwork Support Engr.</p>
+                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i
+                        class="fa fa-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="backside">
+                <div class="card">
+                  <div class="card-body text-center mt-4">
+                    <h4 class="card-title">Saiful Islam</h4>
+                    <p class="card-text">This is basic card with image on top, title, description and button.This is</p>
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-facebook"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-skype"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-google"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ./Team member -->
+        <!-- Team member -->
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="image-flip">
+            <div class="mainflip flip-0">
+              <div class="frontside">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <p><img class=" img-fluid"
+                        src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card image">
+                    </p>
+                    <h4 class="card-title">SI Hriday Khan</h4>
+                    <p class="card-text">Software Support Engineer</p>
+                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i
+                        class="fa fa-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="backside">
+                <div class="card">
+                  <div class="card-body text-center mt-4">
+                    <h4 class="card-title">SI Hriday Khan</h4>
+                    <p class="card-text">This is basic card with image on top, title, description and button.This is</p>
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-facebook"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-skype"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-google"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ./Team member -->
+        <!-- Team member -->
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="image-flip">
+            <div class="mainflip flip-0">
+              <div class="frontside">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <p><img class=" img-fluid"
+                        src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card image">
+                    </p>
+                    <h4 class="card-title">Md. Delowar Hossain</h4>
+                    <p class="card-text">Support Engineer</p>
+                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i
+                        class="fa fa-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="backside">
+                <div class="card">
+                  <div class="card-body text-center mt-4">
+                    <h4 class="card-title">Rayhan Ahmed</h4>
+                    <p class="card-text">This is basic card with image on top, title, description and button.This is</p>
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-facebook"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-skype"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-google"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ./Team member -->
+        <!-- Team member -->
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="image-flip">
+            <div class="mainflip flip-0">
+              <div class="frontside">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <p><img class=" img-fluid"
+                        src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card image">
+                    </p>
+                    <h4 class="card-title">Rayhan Ahmed</h4>
+                    <p class="card-text">Business Developer</p>
+                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i
+                        class="fa fa-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="backside">
+                <div class="card">
+                  <div class="card-body text-center mt-4">
+                    <h4 class="card-title">Rayhan Ahmed</h4>
+                    <p class="card-text">This is basic card with image on top, title, description and button.This is</p>
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-facebook"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-skype"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank"
+                          href="https://www.fiverr.com/share/qb8D02">
+                          <i class="fa fa-google"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ./Team member -->
+      </div>
+    </div>
+  </section>
+  <!-- Team -->
+  <!-- technology-start -->
+  <section id="technology" class="py-5 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h3>OUR TECHNOLOGY</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <img class="img-responsive img-circle" src="./img/oracle1.png" />
+        </div>
+        <div class="col-1">
+          <img class="img-responsive img-circle" src="./img/oracle-forms.png" />
+        </div>
+        <div class="col-1">
+          <img class="img-responsive img-circle" src="./img/reports.jpg" />
+        </div>
+        <div class="col-1">
+          <img class="img-responsive img-circle" src="./img/plsql.jpg" />
+        </div>
+        <div class="col-1">
+          <img class="img-responsive img-circle" src="./img/sql-server.png" />
+        </div>
+        <div class="col-1">
+          <img class="img-responsive img-circle" src="./img/html.png" />
+        </div>
+
+        <div class="col-1">
+          <img class="img-responsive img-circle" src="./img/css.jpg" />
+        </div>
+        <div class="col-1">
+          <img class="img-responsive img-circle" src="./img/jquery1.jpg" />
+        </div>
+        <div class="col-1">
+          <img class="img-responsive img-circle" src="./img/js.png" />
+        </div>
+        <div class="col-1">
+          <img class="img-responsive img-circle" src="./img/php.jpg" />
+        </div>
+        <div class="col-1">
+          <img class="img-responsive img-circle" src="./img/mysql.png" />
+        </div>
+        <div class="col-1">
+          <img class="img-responsive img-circle" src="./img/react.png" />
+        </div>
+
+      </div>
+
+      <div class="row mt-2">
+        <div class="col-1">
+          <img class="img-responsive img-circle" src="./img/nodejs.png" />
+        </div>
+        <div class="col-1">
+          <img class="img-responsive img-circle" src="./img/db2.jpg" />
+        </div>
+        <div class="col-1">
+          <img class="img-responsive img-circle" src="./img/reactrouter.jpeg" />
+        </div>
+        <div class="col-1">
+          <img class="img-responsive img-circle" src="./img/redux.png" />
+        </div>
+        <div class="col-1">
+          <img class="img-responsive img-circle" src="./img/nosql_logo.png" />
+        </div>
+        <div class="col-1">
+          <img class="img-responsive img-circle" src="./img/laravel.png" />
+        </div>
+        <div class="col-1">
+          <img class="img-responsive img-circle" src="./img/plsql.jpg" />
+        </div>
+        <div class="col-1">
+          <img class="img-responsive img-circle" src="./img/mysql.png" />
+        </div>
+        <div class="col-1">
+          <img class="img-responsive img-circle" src="./img/router.png" />
+        </div>
+        <div class="col-1">
+          <img class="img-responsive img-circle" src="./img/networking.jpeg" />
+        </div>
+        <div class="col-1">
+          <img class="img-responsive img-circle" src="./img/ai1.png" />
+        </div>
+        <div class="col-1">
+          <img class="img-responsive img-circle" src="./img/photoshope.png" />
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- technology-end -->
+
+  <!-- our customer -->
+  <section id="customer">
+    <div id="carousel" class="container text-center ">
+      <h3 class="font-weight-light" style="color: white;"> <b>OUR CLIENTS & PATNARS</b></h3>
+      <div class="row mx-auto my-auto">
+        <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+          <div class="carousel-inner w-100" role="listbox">
+
+            <div class="carousel-item active">
+              <div class="col col-md-2">
+                <div class="card ml-3 mr-3">
+                  <h5 id="h5" style="color: white;">Kayros Footware</h5>
+                  <img src="img/company/kayros.jpg" class="fluied" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item ">
+              <div class="col col-md-2">
+                <div class="card ml-3 mr-3">
+                  <h5 style="color: white;">kadena</h5>
+                  <img src="img/company/kadena.JPG" class="fluied" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item ">
+              <div class="col col-md-2">
+                <div class="card ml-3 mr-3">
+                  <h5 style="color: white;">Alco Parma.</h5>
+                  <img src="img/company/alco.png" class="fluied" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item ">
+              <div class="col col-md-2">
+                <div class="card ml-3 mr-3">
+                  <h5 style="color: white;">FZ IT</h5>
+                  <img src="img/company/fz.jpg" class="fluied" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item ">
+              <div class="col col-md-2">
+                <div class="card ml-3 mr-3">
+                  <h5 style="color: white;">Kayros Footware</h5>
+                  <img src="img/company/fz.jpg" class="fluied" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item ">
+              <div class="col col-md-2">
+                <div class="card ml-3 mr-3">
+                  <h5 style="color: white;">Kayros Footware</h5>
+                  <img src="img/company/kadena.JPG" class="fluied" alt="">
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon bg-success border border-dark rounded-circle"
+              aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon bg-success border border-dark rounded-circle"
+              aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- our customer end -->
+
+  <!-- SMART-SERVICE START -->
+  <section id="smart-service" class="py-5 text-center text-light">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h3>Why Use Our Software? We have earned the trust of our customer</h3>
+        </div>
+      </div>
+      <div class="row mt-2">
+
+        <div class="col-lg-3 col-sm-6  mt-sm-4 mt-xm-4">
+          <div class="card">
+            <div class="row mb-2 mt-2">
+              <div class="col-5 ml-1">
+                <img src="img/creative/creative1.jpg" alt="">
+              </div>
+              <div class="col-6 mt-4 ">
+                <h3><b>Creative</b></h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p>We are a team of creative.We always strive to bring creative solutions to each of our client's</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6  mt-sm-4 mt-xm-4">
+          <div class="card">
+            <div class="row mb-2  mt-sm-4 mt-2">
+              <div class="col-5 ml-1">
+                <img src="img/creative/tech.jpg" alt="">
+              </div>
+              <div class="col-6 mt-4 ">
+                <h3><b>Easy & Smart</b></h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p>Each of our solutions is based on modern technology, user-friendly and very low maintenance</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mt-sm-4 mt-xm-4">
+          <div class="card">
+            <div class="row mb-2 mt-2">
+              <div class="col-5 ml-1">
+                <img src="img/creative/support.jpg" alt="">
+              </div>
+              <div class="col-6 mt-4 ">
+                <h3><b>Quick Support</b></h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p>We are available 7 days in your service via email/calls.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mt-sm-4 mt-xm-4">
+          <div class="card">
+            <div class="row mb-2 mt-2">
+              <div class="col-5 ml-1">
+                <img src="img/creative/client3.jpg" alt="">
+              </div>
+              <div class="col-6 mt-2 ">
+                <h3><b>Client Satisfaction</b></h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p>Our top most priority is to 100% satisfy customer's needs based on their requirements.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- SMART-SERVICE END -->
+
+  <!-- PORTFOLIO SECTION-->
+  <section id="portfolio" class="py-5" uk-lightbox>
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h3 style="font-weight: bold; color: white;">OUR PORTFOLIO</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div>
+              <a href="img/image1.jpeg"><img src="img/image1.jpeg" alt="image1" class="img-fluied"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div>
+              <a href="img/image2.jpeg"><img src="img/image2.jpeg" alt="image2" class="img-fluied"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div>
+              <a href="img/image3.jpeg"><img src="img/image3.jpeg" alt="image3" class="img-fluied"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row pt-0 pt-md-4">
+        <div class="col-md-4">
+          <div class="card">
+            <div>
+              <a href="img/image4.jpeg"><img src="img/image4.jpeg" alt="image4" class="img-fluied"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div>
+              <a href="img/image5.jpeg"><img src="img/image5.jpeg" alt="image2" class="img-fluied"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div>
+              <a href="img/image6.jpeg"><img src="img/image6.jpeg" alt="image3" class="img-fluied"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- PORTFOLIO SECTION END -->
+
   <!--Newsletter-->
-    <section class="py-5 bg-dark text-light text-center" id="newslater">
-        <div class="container text-center">
-           <div class="row">
-             <div class="col">
-               <h2 class="text-light">Sign Up for our Newsletter</h2>
-               <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat possimus doloribus velit, harum accusantium quia repellendus debitis, neque vero</p>
-               <form action="" method="post" class="form-inline justify-content-center">
-                  <label class="sr-only" for="name">Name</label>
-                  <input class="form-control m-2" type="text" placeholder="Name">
-                  <label class="sr-only" for="email">Email</label>
-                  <input class="form-control m-2" type="email" placeholder="Email">
-                  <input class="btn btn-primary m-2" type="submit" value="Subscribe">
-               </form>
-             </div>
-           </div>
+  <section class="py-5 text-light text-center" id="newslater">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <h2 class="text-light">Sign Up for our Newsletter</h2>
+          <form action="" method="post" class="form-inline justify-content-center">
+            <label class="sr-only" for="name">Name</label>
+            <input class="form-control m-2" type="text" placeholder="Name">
+            <label class="sr-only" for="email">Email</label>
+            <input class="form-control m-2" type="email" placeholder="Email">
+            <input class="btn btn-success m-2" type="submit" value="Subscribe">
+          </form>
         </div>
-    </section>
-    <!--copyright-->
-    <section id="copyright" class="text-center py-4 text-light">
-        <div class="container">
-           <div class="row">
-             <div class="col">
-               <p class="mb-0 ">Copyright 2018 &copy; Glozzom</p>
-             </div>
-           </div>
+      </div>
+    </div>
+  </section>
+  <!--copyright-->
+  <section id="copyright" class="text-center py-4 text-light">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p class="mb-0 ">Copyright 2018 &copy; Glozzom</p>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
+  <script src="js/carousel.js"></script>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
@@ -240,5 +1337,8 @@
   <script src="js/navbar-fixed.js"></script>
   <script src="js/uikit.min.js"></script>
   <script src="js/uikit-icons.js"></script>
+  <script src="js/carousel.js"></script>
+
 </body>
+
 </html>
