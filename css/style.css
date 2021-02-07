@@ -5,7 +5,7 @@
     .navbar .nav-item .nav-link {
       text-transform: uppercase; }
 
-.carousel-item {
+#showcase .carousel-item {
   height: 500px; }
 
 .carousel-img-1 {

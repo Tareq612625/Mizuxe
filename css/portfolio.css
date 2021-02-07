@@ -1,0 +1,10 @@
+#portfolio{
+    background-color: black;
+}
+
+#portfolio .card {
+    height: 250px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #000;
+    border:1px solid #282a29

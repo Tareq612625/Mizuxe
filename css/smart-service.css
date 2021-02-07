@@ -1,0 +1,28 @@
+#smart-service{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+#smart-service h3 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+#smart-service .card {
+    height: 230px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #000;
+    border:1px solid #282a29
+}
+
+#smart-service .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(112, 180, 126, 0.12), 0 4px 8px rgba(180, 172, 172, 0.06)
+}
+
+@media(max-width: 575px){
+    #smart-service .card {
+        height: 300px;
+
+    }
+  }

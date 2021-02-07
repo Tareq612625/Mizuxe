@@ -1,0 +1,20 @@
+#technology{
+    background-color: black;
+}
+
+#technology h3{
+ color: white;
+}
+#technology img{
+    height: 50px;
+    width: 50px;
+    /* border-radius: 50%; */
+
+   }
+#technology .row img:hover{
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    transform: scale(1.2, 1.2);
+	z-index: 9;
+}

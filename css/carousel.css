@@ -1,0 +1,75 @@
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
+#customer{
+    background-color: black;
+}
+
+#customer .carousel-item {
+    height: 150px;
+    background-color: black;
+    color: rgb(62, 173, 72);
+}
+#customer .carousel-item .card{
+    
+    background-color: black;
+    color: rgb(82, 185, 99);
+}
+ #h1{
+    color: white;
+}
+
+
+
+@media(max-width: 991px){
+    .carousel-item h5{
+      display:none;
+    }
+  }
+@media(max-width: 767px){
+    .carousel-item h5{
+      display:none;
+    }
+  }
+  @media(max-width: 767px){
+    #customer .carousel-item {
+        height: 50px;
+        height: 70px;
+        background-color: black;
+        color: rgb(62, 173, 72);
+    }
+    #customer .carousel-item img{
+        height: 50px;
+        height: 70px;
+    }
+  }

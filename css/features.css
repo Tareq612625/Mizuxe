@@ -1,0 +1,28 @@
+#features-boxes{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+#features-boxes h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+#features-boxes .card-body {
+    height: 150px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #000;
+}
+#features-boxes button a {
+    text-decoration: none;
+    color: white;
+}
+#features-boxes .fa {
+    color: #0d853f;
+        font-size: 48px;
+}
+#features-boxes .card-body:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(112, 180, 126, 0.12), 0 4px 8px rgba(180, 172, 172, 0.06)
+}
