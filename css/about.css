@@ -1,0 +1,27 @@
+
+/*About us page*/
+#header{
+    background-color: black;
+    height: 200px;
+    /* background-attachment: fixed; */
+  }
+  #header img{
+      background-size: cover;
+      background-attachment: fixed;
+      height: 200px;
+  }
+   #about-info img{
+      width: 350px;
+      height: 350px;
+  }
+  #about-info{
+    background-color: black;
+  }
+
+  #icon-boxes .fa{
+    
+      font-size: 20;
+      margin-bottom: 5px;
+    
+  }
+  

@@ -1,0 +1,11 @@
+#contact-us img{
+    height: 300px;
+    width: 100%;
+}
+#contact{
+    background-color: black;
+    color: white;
+}
+#contact .row .card{
+    background-color: black;
+}

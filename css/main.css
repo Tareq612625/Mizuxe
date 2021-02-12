@@ -88,6 +88,11 @@ Image placeholders: placemi.com
             transition: opacity 400ms ease-in-out;
 }
 
+.panel.panel-card .panel-figure img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
 .panel.panel-card .panel-body {
     padding-top: 40px;
     padding-bottom: 20px;
@@ -124,3 +129,4 @@ Image placeholders: placemi.com
     -webkit-transition: padding 400ms ease-in-out;
             transition: padding 400ms ease-in-out;
 }
+

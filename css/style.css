@@ -9,15 +9,16 @@
   height: 500px; }
 
 .carousel-img-1 {
-  background: url(../img/image1.jpeg);
-  background-size: cover; }
+  background: url(../img/cover/slider6.jpg);
+  background-size: cover;
+  width: 100%; }
 
 .carousel-img-2 {
-  background: url(../img/image2.jpeg);
+  background: url(../img/cover/slider8.png);
   background-size: cover; }
 
 .carousel-img-3 {
-  background: url(../img/image3.jpeg);
+  background: url(../img/cover/slider7.jpg);
   background-size: cover; }
 
 #homeicon .fa {
@@ -60,17 +61,6 @@
 
 #copyright {
   background: #000; }
-
-/*About us page*/
-#page-header {
-  background: url(../img/image1.jpeg);
-  background-size: cover;
-  height: 200px;
-  background-attachment: fixed; }
-
-#about-info img {
-  width: 350px;
-  height: 350px; }
 
 #icon-boxes .fa {
   font-size: 50px;
